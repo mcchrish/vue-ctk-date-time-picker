@@ -22,7 +22,7 @@
     "delete-dist-report": "rm ./dist/report.html",
     "delete:reports": "npm run delete-docs-report && npm run delete-dist-report"
   },
-  "dependencies": {
+  "peerDependencies": {
     "moment": "^2.24.0",
     "moment-range": "^4.0.1",
     "v-click-outside": "^2.0.2",
@@ -33,19 +33,19 @@
     "@vue/cli-plugin-eslint": "^3.3.0",
     "@vue/cli-plugin-unit-jest": "^3.5.1",
     "@vue/cli-service": "^3.2.2",
-    "@vue/eslint-config-standard": "^4.0.0",
-    "@vue/test-utils": "^1.0.0-beta.29",
+    "@vue/eslint-config-standard": "6.0.0",
+    "@vue/test-utils": "1.1.2",
     "babel-core": "7.0.0-bridge.0",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
-    "eslint": "^5.8.0",
-    "eslint-plugin-vue": "^5.0.0",
-    "node-sass": "^4.11.0",
-    "nuxt": "^2.9.2",
-    "sass-loader": "^7.1.0",
-    "vue-cli-plugin-webpack-bundle-analyzer": "^1.2.0",
-    "vue-server-renderer": "^2.6.9",
-    "vue-template-compiler": "^2.6.9"
+    "babel-eslint": "10.1.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.16.0",
+    "eslint-plugin-vue": "7.3.0",
+    "node-sass": "5.0.0",
+    "nuxt": "2.14.12",
+    "sass-loader": "10.1.0",
+    "vue-cli-plugin-webpack-bundle-analyzer": "4.0.0",
+    "vue-server-renderer": "2.6.12",
+    "vue-template-compiler": "2.6.12"
   },
   "postcss": {
     "plugins": {
